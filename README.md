@@ -22,23 +22,25 @@ Ce projet repose sur les étapes suivantes :
 - Matplotlib & WordCloud : visualisation graphique des compétences extraites.
 
 ## 📁 Structure du projet
-
-`
-├── scrap_wttj_to_get_competence.ipynb  # Code principal : scraping, extraction et visualisation
+```
+.
+├── scrap_wttj_to_get_competence.ipynb                        # Code principal : scraping, extraction et visualisation
 ├── data/
-│   └── job_links.xlsx                       # Liens des annonces collectées
-├── README.md                           # Description du projet
+│   └── job_links.xlsx                                        # Liens des annonces collectées
+├── README.md                                                 # Description du projet
 └── img/
-    └── wordcloud.png                   # Image du nuage de mots généré
-`
-
+    └── Compétences clés Data 2025 WTTJ.png                   # Image du nuage de mots généré
+```
 
 ## 📸 Résultat
 
+![Compétences clés Data 2025 WTTJ]("img/Competences_cles_Data_2025_WTTJ.png")
+
 ## 🚧 Challenges rencontrés
 
-💥 Instabilités avec Selenium : certaines sessions se fermaient automatiquement, provoquant des erreurs InvalidSessionIdException. Résolu en lançant le scraping lien par lien.
-⏱️ Temps d’exécution : l’optimisation via la parallélisation n'a pas été retenue dans la version finale pour assurer plus de stabilité.
+💥 Instabilités avec Selenium : certaines sessions se fermaient automatiquement, provoquant des erreurs InvalidSessionIdException. \
+Résolu en lançant le scraping lien par lien sur le même driver. \
+⏱️ Temps d’exécution : l’optimisation via la parallélisation n'a pas été retenue dans la version finale pour assurer plus de stabilité. \
 🧹 Nettoyage des compétences : Une normalisation manuelle a été partiellement effectuée.
 
 ## 🚀 Prochaines étapes
