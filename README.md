@@ -34,7 +34,7 @@ Ce projet repose sur les étapes suivantes :
 
 ## 📸 Résultat
 
-![Compétences clés Data 2025 WTTJ]("img/Competences_cles_Data_2025_WTTJ.png")
+![Compétences clés Data 2025 WTTJ](img/Competences_cles_Data_2025_WTTJ.png)
 
 ## 🚧 Challenges rencontrés
 
