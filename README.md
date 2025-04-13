@@ -23,12 +23,15 @@ Ce projet repose sur les étapes suivantes :
 
 ## 📁 Structure du projet
 
+`
 ├── scrap_wttj_to_get_competence.ipynb  # Code principal : scraping, extraction et visualisation
 ├── data/
 │   └── job_links.xlsx                       # Liens des annonces collectées
 ├── README.md                           # Description du projet
 └── img/
     └── wordcloud.png                   # Image du nuage de mots généré
+`
+
 
 ## 📸 Résultat
 
