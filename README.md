@@ -25,7 +25,7 @@ Ce projet repose sur les étapes suivantes :
 
 ├── scrap_wttj_to_get_competence.ipynb  # Code principal : scraping, extraction et visualisation
 ├── data/
-│   └── links.txt                       # Liens des annonces collectées
+│   └── job_links.xlsx                       # Liens des annonces collectées
 ├── README.md                           # Description du projet
 └── img/
     └── wordcloud.png                   # Image du nuage de mots généré
@@ -45,6 +45,7 @@ Ce projet repose sur les étapes suivantes :
 - Comparer les tendances par type de poste (Data Analyst, Data Engineer, etc.)
 - L’optimisation via la parallélisation n'a pas été retenue dans cette version. Inclure ThreadPoolExecutor pour assurer plus de stabilité et un temps d'exécution optimisé.
 - Encore beaucoup de formulations similaires ou redondantes (ex : travail d'équipe vs collaboration et travail d'équipe). NLP à approfondir.
+- Logging au lieu de print() afin de suivre l'exécution du programme.
 
 ## 🙋‍♀️ À propos
 
